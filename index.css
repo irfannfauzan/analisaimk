@@ -1,0 +1,60 @@
+body{margin:0;
+	padding: 0;
+}
+.container {
+	width : 100%;
+	height: 800px;
+	margin: auto;
+}
+.header {
+	width : auto;
+	height: 50px;
+	background-color: rgb(33, 194, 148);
+	overflow: auto;
+}
+.nav li {
+	display: inline;
+	padding: 10px;
+	border:1px solid;
+	border-radius: 5px;
+}
+.nav li:hover {
+	color:white;
+	cursor: pointer;
+}
+.image {
+	margin: auto;
+}
+.pengertian h2 {
+	text-align: center;
+}
+.pengertian p {
+	text-align: center;
+}
+footer {
+	text-align: center;
+	background-color: black;
+	overflow: auto;
+	width:100%;
+	margin: auto;
+}
+footer p{
+	color:white;
+}
+.nav a{
+	text-decoration: none;
+	color:black;
+}
+.nav a:hover {
+	color:white;
+}
+@media screen and (max-width: 320px){
+	.image{
+		background-size: 320px 500px;
+	}
+}
+@media screen and (max-width: 450px){
+	.image{
+		background-size: 900px 500px;
+	}
+}
